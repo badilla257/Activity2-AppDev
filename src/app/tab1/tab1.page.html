@@ -1,17 +1,54 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="tertiary">
     <ion-title>
-      Tab 1
+      Profile
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="dark">
+  <section class="details">
+          <div class="img">
+          <img src="assets/img/img10.jpg">
+          </div>
+          <div>
+           <h3>Dariel Gie Badila</h3>
+           <ion-label>A Simple Chinita Girl</ion-label>
+           
+          </div>
+  </section>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card color="success">
+    <ion-card-header>
+      <ion-card-title>All about Me..</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+     I am 21 years of age. Born on September 27, 2000. I am kinda of person who really loves reading books, watching movies and dancing
+      </ion-card-content>
+  </ion-card>
+  <ion-card color="danger">
+    <ion-card-header>
+      <ion-card-title>My Place</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+      Brgy.Sto. Nino Jaro, Leyte
+      </ion-card-content>
+  </ion-card>
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-title>School</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+      Eastern Visayas State University - Carigara Campus
+      </ion-card-content>
+  </ion-card>
+
+  <ion-card color="secondary">
+    <ion-card-header>
+      <ion-card-title>Course, Year and Section</ion-card-title>
+    </ion-card-header>
+   <ion-card-content>
+      Bachelor of Science in Information Tehnology, Third year - C
+      </ion-card-content>
+  </ion-card>
 </ion-content>
